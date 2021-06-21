@@ -1,0 +1,4 @@
+requests==2.5.0
+six==1.8.0
+swapi==0.1.3
+ujson==1.33
