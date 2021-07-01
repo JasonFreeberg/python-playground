@@ -40,4 +40,4 @@ jobs:
     steps:
       - run: echo Hello from Job 2!
       
-      - run: echo "Job 2 will only run if Job 1 completes successfully. (See 'needs: first-job' on line 39)"
+      - run: echo "Job 2 will only run if Job 1 completes successfully. (See line 39)"
