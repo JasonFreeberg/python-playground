@@ -20,6 +20,6 @@ jobs:
         with:
           python-version: 3.9
       - name: Install requirements.txt
-        run: pip3 install -r .\requirements.txt
+        run: pip3 install -r requirements.txt
       - name: Run Pytests
         run: pytest
